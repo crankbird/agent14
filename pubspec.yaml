@@ -1,3 +1,10 @@
+name: agent_wrapper
+description: A local-first plugin-based GPT assistant in Flutter.
+version: 0.1.0
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -10,3 +17,6 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.4.0
   json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
